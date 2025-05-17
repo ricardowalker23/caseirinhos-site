@@ -1,0 +1,65 @@
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: #fff8f0;
+    color: #6b4c3b;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #ffe6ea;
+    padding: 20px;
+}
+
+.logo {
+    max-height: 100px;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 2.5em;
+}
+
+.contato {
+    background: #fff0f5;
+    padding: 20px;
+    font-size: 1.1em;
+}
+
+.botoes a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+}
+
+.whatsapp {
+    background-color: #25D366;
+}
+
+.instagram {
+    background-color: #C13584;
+}
+
+.galeria {
+    padding: 20px;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.imagens img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px #ccc;
+}
